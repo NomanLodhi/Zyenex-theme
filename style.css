@@ -114,7 +114,9 @@
 }
 .btn-classic {
     background: rgb(29, 247, 183);
-    background: linear-gradient(90deg, rgba(29, 247, 183, 1) 0%, rgba(32, 201, 151, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(180deg,rgb(153, 0, 219) 0%, rgb(182, 137, 191) 51%, rgb(135, 0, 219));
+    color: white;
+    border: 2px solid purple;
     padding: 10px 20px;
     clip-path: polygon(0 0, 83% 0, 100% 27%, 100% 100%, 100% 100%, 16% 98%, 0 77%, 0% 20%);
 }
@@ -130,4 +132,12 @@
     right: 0%;
     top: 20%;
     transform: translateX(200px) translateY(50%);
+}
+.bg-testo{
+    background: url('./media/bg-testo.png'), radial-gradient(rgb(153, 0, 219) 0%, rgba(0, 0, 0, 0) 51%, rgba(135, 0, 219, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    height: 500px;
+    padding: 10px;
 }
