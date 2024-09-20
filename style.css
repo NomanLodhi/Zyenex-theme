@@ -8,9 +8,9 @@
     height: 650px;
 }
 .section-2{
-    /* height: 70vh; */
-    position: relative;
+ position: relative;
 }
+   
 .container-fluid{
     --bs-gutter-x: 0; 
 }
@@ -138,6 +138,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color-dodge;
-    height: 500px;
     padding: 10px;
+}
+.card-review{
+    -webkit-backdrop-filter:blur(30px);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    transition: all 0.2s ease ;
+}
+.slick-slide{
+    /* margin-left: 10px !important; */
+}
+.card-review:hover{
+    background: linear-gradient(180deg,rgb(153, 0, 219) 0%, rgb(182, 137, 191) 51%, rgb(135, 0, 219));
+}
+.card-review .card-text{
+    font-size: 15px;
+    line-height: 20px;
 }

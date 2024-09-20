@@ -7,7 +7,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <!-- Slick slider CSS -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
@@ -197,25 +198,107 @@
                  <h1 class="text-center py-2 text-about">WHAT CLIENTS
                     SAY ABOUT US</h1>
                  <h1 class="text-center py-3 text-light fs-5">The Secret of our long term success in the industry lies in the heart of our customers</h1>
-                 
-                  </div>
+
+                 <div class="row slider mt-5">
+                    <div class="col-lg-12">
+                        <div class="card-review " style="width: 90%;">
+                            <div class="card-body ">
+                              <p class="card-text">We had the pleasure of working with Zyenex LLC for our website redesign, and the outcome was fantastic. They created a sleek, modern site that works perfectly on all devices. The project was delivered on time, and their support was excellent. We highly recommend them for web development.
+                             </p>
+                             <h5 style="color:rgb(61, 124, 219); font-weight: bold;">J. Sarah</h5>
+                             <p>Product Manager</p>
+                            </div>
+                          </div>
+                         
+                    </div>
+                    
+                    <div class="col-lg-12">
+                        <div class="card-review" style="width: 90%;">
+                            <div class="card-body">
+                              <p class="card-text">Zyenex LLC revamped our email marketing, leading to a big boost in open and click-through rates. Their strategy and design tailored to our audience made a noticeable difference. Since partnering with them, customer engagement and sales have improved. They’re our go-to for email marketing!
+                             </p>
+                             <h5 style="color:rgb(61, 124, 219); font-weight: bold;">Martin Lucas</h5>
+                             <p>Sales Manager</p>
+                            </div>
+                          </div>
+                         
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-review" style="width: 90%;">
+                            <div class="card-body">
+                              <p class="card-text">Our experience with Zyenex LLC for digital marketing was excellent. Their strategy, including SEO, social media, and PPC, increased traffic and visibility. The team is skilled and focused on our goals. Thanks to them, our brand presence and lead generation have improved. Zyenex LLC is a digital marketing game-changer!
+                             </p>
+                             <h5 style="color:rgb(61, 124, 219); font-weight: bold;">Lewis Stark</h5>
+                             <p>Project Manager</p>
+                            </div>
+                          </div>
+                         
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-review" style="width: 90%;">
+                            <div class="card-body">
+                              <p class="card-text">"My website has just been completed, and I’m thrilled with the results. It’s better than I expected, with a clean, modern design that fits my vision. The team at Zyenex LLC exceeded expectations in every aspect. Now, they’re setting up my Facebook and Instagram accounts to ensure my online presence is consistent. Zyenex LLC is a game-changer for my business!
+                             </p>
+                             <h5 style="color:rgb(61, 124, 219); font-weight: bold;">John Smith</h5>
+                             <p>CEO</p>
+                            </div>
+                          </div>
+                         
+                    </div>
+                
+                    
+                   
                  </div>
+                </div>
+                </div>
+                 </div>
+                 
+                 <video src="./media/Glow.mp4" class="bg-sec-2" muted autoplay loop></video>
          </div>
-         <video src="./media/Glow.mp4" class="bg-sec-2" muted autoplay loop></video>
      </section>
     
     </div>
 </body>
 <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
-<!-- Slick slider JS -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- jQuery CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Slick slider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    $('.multiple-items').slick({
-  infinite: true,
+   $('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
   slidesToShow: 3,
-  slidesToScroll: 3
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 		
 </script>
