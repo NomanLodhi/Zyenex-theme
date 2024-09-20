@@ -143,6 +143,7 @@
 .card-review{
     -webkit-backdrop-filter:blur(30px);
     backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.34);
     border-radius: 20px;
     padding: 30px;
     color: white;
@@ -157,4 +158,23 @@
 .card-review .card-text{
     font-size: 15px;
     line-height: 20px;
+}
+.bg-portfolio{
+    -webkit-backdrop-filter:blur(30px)  !important;
+    /* backdrop-filter:blur(30px) !important ;   */
+    width: 100%;
+    background-image: url('./media/portfolio.png');
+}
+.circle-purp2{
+    background-color: purple;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(150px);
+    padding: 50px;
+    left: -30%;
+    bottom: 80%;
+    transform: translateX(200px) translateY(50%);
 }
