@@ -19,6 +19,7 @@
     width: 30px;
     height: 3px;
     margin: 3px 0px;
+    transition: all 0.1s ease;
     background-color: aliceblue;
 }   
 .border-stats:nth-child(1){
@@ -222,5 +223,32 @@
     width: 100%;
     height: 100%;
 }
+.active-toggle .nav-togglers:nth-child(1){
+    transform: rotate(45deg) translateY(7px) translateX(1px);
+}
+.active-toggle .nav-togglers:nth-child(2){
+    display:none ;
+}
+.active-toggle .nav-togglers:nth-child(3){
+    transform: rotate(-45deg)translateY(-5px);
+}
+.heading-menu{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.menu-divider{
+    width: 10%;
+    height: 3px;
+    background-color: aqua;
+}
 
-
+.text-menu{
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.1s linear;
+    margin:5px 0px ;
+}
+.text-menu:hover{
+    color: aqua !important;
+    transform: scale(1.2);
+}
