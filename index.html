@@ -10,15 +10,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="main">
-        <header class="position-relative container-fluid position-relative section-1">
+        <header class="position-relative container-fluid position-relative section-1" >
         <div class="position-relative">
          <nav class="d-flex justify-content-between bg-transparent container-xxl py-3">
-             <img src="./media/Zyenex-Logo-variation (1).png" width="200px" class="m-3" alt="">
+             <img src="./media/Zyenex-Logo-variation (1).png" width="200px" class="m-3" alt="" >
              <button class="bg-transparent border-0 btn-nav">
                  <span class="nav-togglers"></span>
                  <span class="nav-togglers"></span>
@@ -237,7 +237,7 @@
                     <div class="col-lg-12">
                         <div class="card-review" style="width: 90%;">
                             <div class="card-body">
-                              <p class="card-text">"My website has just been completed, and I’m thrilled with the results. It’s better than I expected, with a clean, modern design that fits my vision. The team at Zyenex LLC exceeded expectations in every aspect. Now, they’re setting up my Facebook and Instagram accounts to ensure my online presence is consistent. Zyenex LLC is a game-changer for my business!
+                              <p class="card-text">My website has just been completed, and I’m thrilled with the results. It’s better than I expected, with a clean, modern design that fits my vision. The team at Zyenex LLC exceeded expectations in every aspect. Now, they’re setting up my Facebook and Instagram accounts to ensure my online presence is consistent. Zyenex LLC is a game-changer for my business!
                              </p>
                              <h5 style="color:rgb(61, 124, 219); font-weight: bold;">John Smith</h5>
                              <p>CEO</p>
@@ -276,15 +276,33 @@
                  
                  <video src="https://cdn.pixabay.com/video/2023/11/15/189172-884987257_large.mp4" class="bg-sec-2" muted autoplay loop></video>
          </div>
+         <div class="drop" >
+            <div id="particles-js"></div>
+            <div class="container-fluid position-absolute top-0 h-100">
+                <div class="row container h-100 align-items-center justify-content-center mx-auto">
+                    <div class="col-lg-6"> 
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nesciunt blanditiis consequuntur iure, eligendi laudantium ipsum nobis ex dicta animi, voluptate similique. Provident in sint perspiciatis fuga reprehenderit itaque aut!
+                    </div>
+                    <div class="col-lg-6">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nesciunt blanditiis consequuntur iure, eligendi laudantium ipsum nobis ex dicta animi, voluptate similique. Provident in sint perspiciatis fuga reprehenderit itaque aut!
+                    </div>
+                    <button id="myBtn" class="btn-classic btn-classicx getAquote my-3 mx-auto" style="width:200px; height: auto;">Login</button>
+                </div>
+            </div>
+         </div>
      </section>
-    
-    </div>
 </body>
+<!-- Custom JS -->
+ <script src="./JS/script.js"></script>
+<!-- Bootstrap JS -->
 <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 <!-- jQuery CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Slick slider JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Particle JS files -->
+<script src="./ParticleJS/particles.js"></script>
+<script src="./ParticleJS/app.js"></script>
 <script>
    $('.slider').slick({
   dots: true,
