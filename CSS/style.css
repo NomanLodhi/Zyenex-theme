@@ -237,7 +237,7 @@
     color: transparent;
 }
 .menu-divider{
-    width: 10%;
+    width: 50px;
     height: 3px;
     background-color: aqua;
 }
