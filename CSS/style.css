@@ -252,3 +252,12 @@
     color: aqua !important;
     transform: scale(1.2);
 }
+.bg-logo-service{
+    background: url('../services/media/logo-service.png'), rgba(70, 29, 84, 0.701);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-blend-mode: color-dodge;
+    
+}
