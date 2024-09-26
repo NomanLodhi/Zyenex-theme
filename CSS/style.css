@@ -267,6 +267,22 @@
     background-blend-mode: color-dodge;
     padding-bottom: 50px;
 }
+.bg-mobile-app-service{
+    background: url('../services/media/bg-mobile-app.jpg'), rgba(70, 29, 84, 0.701);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color-dodge;
+    padding-bottom: 50px;
+}
+.bg-social-media-service{
+    background: url('../services/media/bg-social-media.jpg'), rgba(31, 9, 39, 0.95);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color-dodge;
+    padding-bottom: 50px;
+}
 .hov-img{
     transition: all 0.5s linear;
 }    
