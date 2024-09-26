@@ -259,9 +259,25 @@
     background-position: center center;
     background-blend-mode: color-dodge;
 }
+.bg-website-service{
+    background: url('../services/media/website-service.jpg'), rgba(70, 29, 84, 0.701);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color-dodge;
+    padding-bottom: 50px;
+}
 .hov-img{
     transition: all 0.5s linear;
 }    
 .hov-img:hover{
     transform: scale(1.05);
+}
+.bg-laptop{
+    background: url('../services/media/laptop-bg.jpg'),rgba(0, 0, 0, 0.663);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 100px !important;
+    background-blend-mode: color-dodge;
 }
