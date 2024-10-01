@@ -7,12 +7,12 @@ btnNav.addEventListener('click',()=>{
 btnNav.classList.toggle('active-toggle')
 drop.classList.toggle('drop-block')
 })
-let cursor=document.querySelector('.cursor')
-window.addEventListener('mousemove',(e)=>{
-    console.log(e)
-     cursor.style.left=`${e.clientX}px`
-     cursor.style.top=`${e.clientY}px`
-})
+// let cursor=document.querySelector('.cursor')
+// window.addEventListener('mousemove',(e)=>{
+//     console.log(e)
+//      cursor.style.left=`${e.clientX}px`
+//      cursor.style.top=`${e.clientY}px`
+// })
 
 
 
