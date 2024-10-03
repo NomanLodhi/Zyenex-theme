@@ -306,3 +306,21 @@
     padding-top: 100px !important;
     background-blend-mode: color-dodge;
 }
+.bg-about-main{
+    background-color: rgba(70, 29, 84, 0.701);
+}
+.dots {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(153, 0, 219);
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+@media (max-width:576px) {
+    .text-about{
+    font-size: 30px;
+    }    
+}
